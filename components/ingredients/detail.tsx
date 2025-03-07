@@ -47,7 +47,7 @@ const Detail: FC<Props> = ({
                                 )
                             }
                         </Box>
-                        <Flex align='center' p={10} h='100%' w='70%'>
+                        <Flex align='center' p={10} h='100%' w='70%' direction='column'>
                             {
                                 data.information.companies.map((item: any) =>
                                     <Text size={14}>
