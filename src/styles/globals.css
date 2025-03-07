@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'sans-font';
+    src: url('../../public/fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+
+@font-face {
+    font-family: 'sans-font-thin';
+    src: url('../../public/fonts/FontsFree-Net-SFProDisplay-Thin.ttf');
+}
+
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+text,
+input,
+label,
+span,
+table,
+tr,
+td,
+textarea,
+th {
+    font-family: 'sans-font' !important;
+    color: '#18232A';
+}
+
+.mantine-AppShell-body, .mantine-AppShell-main {
+    background: rgba(199, 199, 199, 0.1)
+}
+
+.font-thin {
+    font-family: 'sans-font-thin' !important;
+}
+
+#paginationWrapper ul{
+    display: flex;
+}
+.home-search .mantine-Input-input {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid white;
+    padding: 25px;
+}
+
+.header-input .mantine-Input-input {
+    min-height: 24px;
+    height: 24px;
+}
+
+#paginationWrapper ul li a{
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: .375rem;
+    --tw-border-opacity: 1;
+    border-color: none;
+    text-align: center;
+    font-family: Mona Sans, sans-serif;
+    font-size: 13px;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    text-decoration-line: none;
+    background-color: white;
+}
+
+#paginationWrapper ul li {
+    color: gray;
+    margin-left: 10px;
+}
+
+.selected {
+    color: #6B9FFF !important;
+    font-weight: bold;
+}
