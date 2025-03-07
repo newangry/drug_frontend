@@ -18,7 +18,7 @@ const Detail: FC<Props> = ({
                 {
                     data.information.ingredients.map((item: string) =>
                         <List.Item>
-                            <Text color="#6B9FFF" size={12} weight={400}>{item}</Text>
+                            <Text color="#6B9FFF" className="font-small" size={12} weight={400}>{item}</Text>
                         </List.Item>
                     )
                 }
@@ -30,7 +30,7 @@ const Detail: FC<Props> = ({
                 {
                     data.information.available_forms.map((item: string) =>
                         <List.Item>
-                            <Text className="opacity-50" size={12} weight={600}>{item}</Text>
+                            <Text className="opacity-50 font-small" size={12} weight={600}>{item}</Text>
                         </List.Item>
                     )
                 }
@@ -42,7 +42,7 @@ const Detail: FC<Props> = ({
                 {
                     data.information.medical_categories.map((item: string) =>
                         <List.Item>
-                            <Text className="opacity-50" size={12}>{item}</Text>
+                            <Text className="opacity-50 font-small" size={12}>{item}</Text>
                         </List.Item>
                     )
                 }
@@ -55,8 +55,8 @@ const Detail: FC<Props> = ({
                     data.information.indications.map((item: any) =>
                         <List.Item>
                             <Flex>
-                                <Text size={12} color="#6B9FFF">{item.value}</Text>
-                                <Text className="opacity-50" size={12}>{item.content}</Text>
+                                <Text size={12} className="font-small" color="#6B9FFF">{item.value}</Text>
+                                <Text className="opacity-50 font-small" size={12}>{item.content}</Text>
                             </Flex>
                         </List.Item>
                     )
@@ -69,7 +69,7 @@ const Detail: FC<Props> = ({
                 {
                     data.information.pharmaceutical_companies.map((item: any) =>
                         <List.Item>
-                            <Text size={12} color="#6B9FFF">{item}</Text>
+                            <Text size={12} color="#6B9FFF" className="font-small">{item}</Text>
                         </List.Item>
                     )
                 }

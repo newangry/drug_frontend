@@ -40,7 +40,7 @@ const BrandNames = () => {
                                 </Text>
                                 <div>
                                     <Text size={14} weight={600} >{item.title}</Text>
-                                    <Text className="opacity-50" weight={400} size={12}>{item.content}</Text>
+                                    <Text className="opacity-50 font-small" weight={400} size={12}>{item.content}</Text>
                                 </div>
                             </Flex>
                         )

@@ -24,7 +24,7 @@ const Footer = () => {
                 {
                     FOOTER_PAGES.map((item) =>
                         <Link href={item.path}>
-                            <Text color="black" className="opacity-50" size={12} weight={400}>
+                            <Text color="black" className="opacity-50 font-small" size={12} weight={400}>
                                 { item.name }
                             </Text>
                         </Link>

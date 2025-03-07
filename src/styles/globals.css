@@ -30,8 +30,7 @@ tr,
 td,
 textarea,
 th {
-    /* font-family: 'sans-font' !important; */
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    font-family: 'sans-font' !important;
     color: '#18232A';
 }
 
@@ -40,7 +39,11 @@ th {
 }
 
 .font-thin {
-    font-family: 'sans-font-thin' !important;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+}
+
+.font-small {
+    font-family: 'sans-font' !important;
 }
 
 #paginationWrapper ul{

@@ -8,7 +8,7 @@ const PopularSearches = () => {
             <SimpleGrid cols={8} >
                 {
                     POPULAR_SEARCHES.map((item: string) => 
-                        <Text size={12} weight={400} className="opacity-90 cursor-pointer"
+                        <Text size={12} weight={400} className="opacity-90 cursor-pointer font-small"
                             onClick={() => {
                                 window.location.href="/search?query="+item
                             }}

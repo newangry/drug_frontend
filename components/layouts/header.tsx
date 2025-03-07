@@ -38,7 +38,7 @@ const MyHeader: FC<Props> = ({ }) => {
                 {
                     PAGES.map((item: PageType) =>
                         <Link href={item.path}>
-                            <Text color={`${item.path == router.pathname ? '#6B9FFF' : 'black'}`} weight={`${item.path == router.pathname ? '700' : '400'}`} className="opacity-80" size={12}>
+                            <Text color={`${item.path == router.pathname ? '#6B9FFF' : 'black'}`} weight={`${item.path == router.pathname ? '700' : '400'}`} className="opacity-80 font-small" size={12}>
                                 {item.name}
                             </Text>
                         </Link>

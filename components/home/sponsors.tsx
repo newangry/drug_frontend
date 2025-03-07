@@ -38,7 +38,7 @@ const Sponsors = () => {
                                 <Image src={`/images/empty_image.svg`} w={120} h={'100%'} />
                                 <Box>
                                     <Text color="black" size={14} weight={600}>{ item.title }</Text>
-                                    <Text color="black" size={12} className="opacity-50" weight={300}>{ item.content }</Text>
+                                    <Text color="black" size={12} className="opacity-50 font-small" weight={300}>{ item.content }</Text>
                                 </Box>
                             </Flex>
                         </Grid.Col>
